@@ -4,10 +4,10 @@ using System.Linq;
 
 namespace CoverletDemo
 {
-    public static class Calculation
+    public class Calculation
     {
 
-        public static int Plus(List<int> arrayNumbers)
+        public int Plus(List<int> arrayNumbers)
         {
             return arrayNumbers.Sum();
         }

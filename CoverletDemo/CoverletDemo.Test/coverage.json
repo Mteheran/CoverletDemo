@@ -1,1 +1,49 @@
-{}
+{
+  "CoverletDemo.dll": {
+    "/Users/migueltheran/Documents/CoverletDemo/CoverletDemo/CoverletDemo/Calculation.cs": {
+      "CoverletDemo.Calculation": {
+        "System.Int32 CoverletDemo.Calculation::Plus(System.Collections.Generic.List`1<System.Int32>)": {
+          "Lines": {
+            "11": 1,
+            "12": 1,
+            "13": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/migueltheran/Documents/CoverletDemo/CoverletDemo/CoverletDemo/Program.cs": {
+      "CoverletDemo.Program": {
+        "System.Void CoverletDemo.Program::Main(System.String[])": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 19,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

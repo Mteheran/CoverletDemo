@@ -16,7 +16,9 @@ namespace Tests
         {
             var arrayOfNumbers = new List<int>() { 1, 5, 4 };
 
-            var result = Calculation.Plus(arrayOfNumbers);
+            var objCal = new Calculation();
+
+            var result = objCal.Plus(arrayOfNumbers);
 
             Assert.AreEqual(10, result);
         }
