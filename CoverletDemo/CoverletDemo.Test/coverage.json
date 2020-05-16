@@ -1,18 +1,26 @@
 {
   "CoverletDemo.dll": {
-    "/Users/migueltheran/Documents/CoverletDemo/CoverletDemo/CoverletDemo/Calculation.cs": {
+    "/Users/migueltheran/coverletDemo/CoverletDemo/CoverletDemo/Calculation.cs": {
       "CoverletDemo.Calculation": {
-        "System.Int32 CoverletDemo.Calculation::Plus(System.Collections.Generic.List`1<System.Int32>)": {
+        "System.Int32 CoverletDemo.Calculation::Sum(System.Collections.Generic.List`1<System.Int32>)": {
           "Lines": {
             "11": 1,
             "12": 1,
             "13": 1
           },
           "Branches": []
+        },
+        "System.Int32 CoverletDemo.Calculation::Sum2numbers(System.Int32,System.Int32)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
         }
       }
     },
-    "/Users/migueltheran/Documents/CoverletDemo/CoverletDemo/CoverletDemo/Program.cs": {
+    "/Users/migueltheran/coverletDemo/CoverletDemo/CoverletDemo/Program.cs": {
       "CoverletDemo.Program": {
         "System.Void CoverletDemo.Program::Main(System.String[])": {
           "Lines": {

@@ -18,7 +18,7 @@ namespace Tests
 
             var objCal = new Calculation();
 
-            var result = objCal.Plus(arrayOfNumbers);
+            var result = objCal.Sum(arrayOfNumbers);
 
             Assert.AreEqual(10, result);
         }
