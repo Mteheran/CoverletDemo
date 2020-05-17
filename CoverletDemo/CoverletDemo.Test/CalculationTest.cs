@@ -12,15 +12,25 @@ namespace Tests
         }
 
         [Test]
-        public void Calculation_2_Items()
+        public void Calculation_Sum_2_Items()
         {
             var arrayOfNumbers = new List<int>() { 1, 5, 4 };
 
-            var objCal = new Calculation();
+            var objCalculation = new Calculation();
 
-            var result = objCal.Sum(arrayOfNumbers);
+            var result = objCalculation.Sum(arrayOfNumbers);
 
             Assert.AreEqual(10, result);
+        }
+
+         [Test]
+        public void Calculation_Divide()
+        {
+            var objCalculation = new Calculation();
+
+            var result = objCalculation.Divide(4,2);
+
+            Assert.AreEqual(2, result);
         }
     }
 }
