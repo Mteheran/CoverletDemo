@@ -1,6 +1,6 @@
 using NUnit.Framework;
 using System.Collections.Generic;
-using CoverletDemo;
+using CoverletDemo.Calculation;
 
 namespace Tests
 {
@@ -23,7 +23,7 @@ namespace Tests
             Assert.AreEqual(10, result);
         }
 
-         [Test]
+        [Test]
         public void Calculation_Divide()
         {
             var objCalculation = new Calculation();
@@ -31,6 +31,16 @@ namespace Tests
             var result = objCalculation.Divide(4,2);
 
             Assert.AreEqual(2, result);
+        }
+
+        [Test]
+        public void Calculation_Divide_3_2()
+        {
+            var objCalculation = new Calculation();
+
+            var result = objCalculation.Divide(3,2);
+
+            Assert.AreEqual(1, result);
         }
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CoverletDemo
+namespace CoverletDemo.Calculation
 {
     public class Calculation
     {
@@ -23,7 +23,7 @@ namespace CoverletDemo
             {
                 return number1 / number2;
             }
-            
+
             return 0;
         }
     }
